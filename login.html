@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+
+  </head>
+
+  <body>
+   <h1>Bluegrass Museum Virtual Tour</h1>
+    <hr>
+
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username"><br><br>
+    <label for="pwd">Password :</label>
+    <input type="password" id="pwd" name="pwd"
+    <br>
+    <br>
+    <br>
+    <a href="SignUp.html">Don't Have an Account? Create One</a>
+    <br>
+    <br>
+    <button onclick="options()">SUBMIT</button>
+    <br>
+    <button class="goback" onclick="goBack()">Go Back</button>
+    <br>
+
+    <button class="home" onclick="options()"></button>
+
+  </body>
+
+  <script>
+    function options() {
+   location.replace("options.html")
+  }
+    function goBack() {
+   location.replace("index.html")
+  }
+   
+    </script>
+</html>
