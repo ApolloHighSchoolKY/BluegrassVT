@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link href="style.css" rel="stylesheet" type="text/css"/>  
+  </head>
+
+  <body>
+    <h2>Second Floor</h2>
+    <hr>
+    <br>
+    <img class="map" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRfTt2x2Gem3pHoQDupUZGp8xtVrMgPhHlEuXjXoMgi1Sff7pVe%3Ad2slcw3kip6qmk.cloudfront.net%2Fmarketing%2Fpages%2Fchart%2Fseo%2FFloorPlans%2Fdiscovery%2Ffeatured-floorplan.svg&usqp=CAU" alt="Second Floor" usemap="#secondfloor" width="450px">
+
+    <map name="secondfloor">
+      <area shape="circle" coords="30,30,30" alt="Exhibit 1" href=exhibit1.html>
+    </map> 
+
+     <button class="first" onclick="firstfloor()">First Floor</button>
+
+    <script>
+      function firstfloor()  {
+        location.replace("map.html")
+      }
+    </script>  
+  </body>
+
+</html>   
