@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+
+	<link href="style.css" rel="stylesheet" type="text/css" /> <title>BMVT - Second Floor</title>
+
+	<link rel="icon" type="image/ico" sizes="32x32" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTJjc396qa-H0nAkvzb2eMmF22Duir0VwyCzf2tyxD5gyrAbJ4z%3Ahttps%3A%2F%2Fwww.freefavicon.com%2Ffreefavicons%2Ficons%2Fmuseum-icon-152-213217.png&usqp=CAU">
+	<link rel="icon" type="image/ico" sizes="16x16" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTJjc396qa-H0nAkvzb2eMmF22Duir0VwyCzf2tyxD5gyrAbJ4z%3Ahttps%3A%2F%2Fwww.freefavicon.com%2Ffreefavicons%2Ficons%2Fmuseum-icon-152-213217.png&usqp=CAU">
+</head>
+
+<body class="secondFloor">
+	<h2>Second Floor</h2>
+	<hr>
+	<br>
+    <img class="map2" src="2ndFloorMap.png" alt="Second Floor" usemap="#secondfloor" width="750px" height="425px">
+
+    <map name="secondfloor">
+      <area shape="rect" coords="320,60,475,215" alt="Exhibit 6" href=exhibit6.html>
+
+
+      <area shape="rect" coords="480,20,730,140" alt="Exhibit 5" href=exhibit5.html>
+
+      <area shape="rect" coords="480,140,600,420" alt="Exhibit 5" href=exhibit5.html>
+
+      <area shape="rect" coords="320,140,480,420" alt="Exhibit 5" href=exhibit5.html>
+
+
+      <area shape="rect" coords="5,215,320,420" alt="Exhibit 8" href=exhibit8.html>
+
+    </map> 
+
+    <button class="first" onclick="firstfloor()">First Floor</button>
+
+    <button class="home" onclick="options()"></button>
+
+    
+    <script>
+     function firstfloor()  {
+        location.replace("1stFloor.html")
+     }
+
+      function options() {
+      location.replace("options.html")
+  }
+    </script>  
+  </body>
+
+</html>
