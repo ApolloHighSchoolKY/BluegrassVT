@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Login Page</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+
+	<title>BMVT - Login Page</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+
+	<link rel="icon" type="image/ico" sizes="32x32" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTJjc396qa-H0nAkvzb2eMmF22Duir0VwyCzf2tyxD5gyrAbJ4z%3Ahttps%3A%2F%2Fwww.freefavicon.com%2Ffreefavicons%2Ficons%2Fmuseum-icon-152-213217.png&usqp=CAU">
+	<link rel="icon" type="image/ico" sizes="16x16" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTJjc396qa-H0nAkvzb2eMmF22Duir0VwyCzf2tyxD5gyrAbJ4z%3Ahttps%3A%2F%2Fwww.freefavicon.com%2Ffreefavicons%2Ficons%2Fmuseum-icon-152-213217.png&usqp=CAU">
+</head>
+
+<body>
+	<h1>Bluegrass Museum Virtual Tour</h1>
+	<hr>
 
 
-  </head>
-
-  <body>
-   <h1>Bluegrass Museum Virtual Tour</h1>
-    <hr>
-
-
-    <label for="username">Username:</label>
+	<label for="username">Username:</label>
     <input type="text" id="username" name="username"><br><br>
     <label for="pwd">Password :</label>
     <input type="password" id="pwd" name="pwd"
@@ -26,12 +30,13 @@
     <br>
     <button class="goback" onclick="goBack()">Go Back</button>
     <br>
-
-    <button class="home" onclick="options()"></button>
+    
 
   </body>
 
   <script>
+
+    
     function options() {
    location.replace("options.html")
   }
