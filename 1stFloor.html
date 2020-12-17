@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+
+	<link href="style.css" rel="stylesheet" type="text/css" /> <title>BMVT - First Floor</title>
+
+	<link rel="icon" type="image/ico" sizes="32x32" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTJjc396qa-H0nAkvzb2eMmF22Duir0VwyCzf2tyxD5gyrAbJ4z%3Ahttps%3A%2F%2Fwww.freefavicon.com%2Ffreefavicons%2Ficons%2Fmuseum-icon-152-213217.png&usqp=CAU">
+	<link rel="icon" type="image/ico" sizes="16x16" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTJjc396qa-H0nAkvzb2eMmF22Duir0VwyCzf2tyxD5gyrAbJ4z%3Ahttps%3A%2F%2Fwww.freefavicon.com%2Ffreefavicons%2Ficons%2Fmuseum-icon-152-213217.png&usqp=CAU">
+</head>
+
+<body class="firstFloor">
+	<h2>First Floor</h2>
+  
+  <h4 class="click"> Click on the exhibits to take a virtual tour </h4>
+<hr>
+    <img class="map" src="mapClean.png" alt="First Floor" usemap="#firstfloor" width="900px" height="400px">
+
+    <img class= "violin" src = "cartoon violin.PNG">
+
+    <map name="firstfloor">
+
+      <area shape="rect" coords="75,75,255,200" alt="Exhibit 4" href=exhibit4.html>
+
+      <area shape="rect" coords="255,0,375,75" alt="Exhibit 4" href=exhibit4.html>
+      
+      <area shape="rect" coords="255,75,300,135" alt="Exhibit 4" href=exhibit4.html>
+
+      <area shape="rect" coords="50,300,125,145" alt="Exhibit 4" href=exhibit4.html>
+
+      <area shape="circle" coords="75,320,40" alt="Exhibit 4" href=exhibit4.html>
+
+
+      <area shape="circle" coords="380,235,125" alt="Exhibit 3" href=exhibit3.html>
+
+      <area shape="rect" coords="450,120,550,200" alt="Exhibit 3" href=exhibit3.html>
+
+      <area shape="rect" coords="500,200,550,300" alt="Exhibit 3" href=exhibit3.html>
+
+
+      <area shape="rect" coords="405,5,630,65" alt="Exhibit 2" href=exhibit2.html>
+
+
+      <area shape="rect" coords="630,5,775,200" alt="Exhibit 1" href=exhibit1.html>
+
+      <area shape="rect" coords="560,100,675,210" alt="Exhibit 1" href=exhibit1.html>
+
+
+      <area shape="rect" coords="780,85,860,275" alt="Exhibit 7" href=exhibit7.html>
+      
+      <area shape="rect" coords="710,215,780,360" alt="Exhibit 7" href=exhibit7.html>
+
+
+    </map> 
+
+     <button class="first" onclick="secondfloor()">Second Floor</button>
+
+
+    <button class="home" onclick="options()"></button>
+
+    
+    
+    <script>
+      function secondfloor()  {
+        location.replace("2ndFloor.html")
+      }
+
+      function options() {
+      location.replace("options.html")
+  }
+    </script>  
+  </body>
+</html>
