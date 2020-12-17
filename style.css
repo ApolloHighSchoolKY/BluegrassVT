@@ -54,6 +54,21 @@ body.options{background-image: url(https://amtshows.com/wp-content/uploads/2017/
       }
 
 /*Background Images*/
+body.firstFloor{background-image: url(https://www.solidbackgrounds.com/images/3840x2160/3840x2160-dark-gray-solid-color-background.jpg);
+     background-repeat:no-repeat;
+     background-size: cover;
+     max-width: 100% 100%;
+     height: 100%;
+      }
+
+body.secondFloor{background-image: url(https://www.solidbackgrounds.com/images/3840x2160/3840x2160-dark-gray-solid-color-background.jpg);
+     background-repeat:no-repeat;
+     background-size: cover;
+     max-width: 100% 100%;
+     height: 100%;
+      }
+
+/*Background Images*/
 body{background-image: url(https://thebluegrasssituation.com/wp-content/uploads/2020/04/Bluegrass-Museum_dusk_3_f-e1587740738157.jpg);
      background-repeat:no-repeat;
      background-size: cover;
@@ -64,20 +79,19 @@ body{background-image: url(https://thebluegrasssituation.com/wp-content/uploads/
 /*Styling sub/headings*/
   h1{
     position: relative;
-     color:white;
+     color:rgb(255, 255, 255);
      font-size:70px;
      text-align: center;
      }
-  h1.options{
+  h1.optionstitle{
     position: relative;
-     color:rgba(128, 90, 8, 0.699);
+     color:rgba(9, 128, 184, 0.884);
      font-size:70px;
      text-align: center;
   }
   h2{
     color:white;
      font-size:50px;
-     
      text-align: center;
   }
   h3{
@@ -88,11 +102,19 @@ body{background-image: url(https://thebluegrasssituation.com/wp-content/uploads/
   h4{
     color: white;
     border: 2px solid black;
-    text-align: right;
+    text-align: left;
     position: absolute;
-    left: 700px;
+    left: 680px;
     top: 150px;
-    font-size: 30px;
+    font-size: 25px;
+  }
+  h4.click{
+    border: none;
+    text-decoration: underline;
+    position:absolute;
+    left: 500px;
+    top: 75px;
+    font-size: 20px;
   }
 
   /*Basic styling for all buttons*/
@@ -118,9 +140,9 @@ body{background-image: url(https://thebluegrasssituation.com/wp-content/uploads/
   button.first{
     position: absolute;
     top: 50px;
-    left: 950px; 
+    left: 1100px; 
     border-radius: 2px;
-    font-size: 30px;
+    font-size: 25px;
     width: 10%;
   }
 
@@ -153,11 +175,26 @@ body{background-image: url(https://thebluegrasssituation.com/wp-content/uploads/
      background-size:cover;
 }
 
+/*Back to Map button*/
+  button.backmap{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    border-radius: 1px;
+    width: 30px;
+    Height:30px;
+    background-image: url("https://cdn.iconscout.com/icon/free/png-512/back-arrow-1767531-1502435.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
 /*Hover button effects*/
  button:hover {
   background-color: dimgray; 
   color: rgb(39, 150, 173);
 }
+
+
 
 /*Labels for login screen*/
 label {
@@ -173,7 +210,29 @@ a {
 img.map{
   position: absolute;
   top:170px;
-  left:450px
+  left:250px
+}
+
+/*Map image*/
+img.map2{
+  position: absolute;
+  top:170px;
+  left:300px
+}
+img.exhibit4{
+  width:500px;
+  height:400px;
+}
+
+img.violin{
+  position: absolute;
+  top:400px;
+  left:1150px
+}
+
+img.festivalera{
+  width:500px;
+  height:400px;
 }
 
 /*Home image*/
@@ -190,21 +249,15 @@ img.home{
   position: absolute;
   left:0;
   top:0;
-  width:100%;
+  width: 99%; 
   height:100vh;
-  animation: animate 20s ease-in-out infinite;
-  background: cover;
+  animation: animate 15s ease-in-out infinite;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center;
 }
 
 /*Moving background images*/
-.outer{
-  position: absolute;
-  left:0;
-  top:0;
-  width:100%;
-  height:100vh;
-  background: rgba(0,0,0,0.1);
-}
 
 /*Moving background images*/
 @keyframes animate{
@@ -224,5 +277,35 @@ img.home{
 
   /*Light Blue background*/
   .exhibit1{
-    background-image: url("https://images.unsplash.com/photo-1588420343728-7411f4c87441?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80");
+    background-image: url("https://digitaltouchsystems.com/wp-content/uploads/2017/02/orange-gradient-yellow-linear-1920x1080-c2-ffffe0-ff8c00-a-315-f-14-1-2.png");
+  }
+   
+    .exhibit2{
+    background-image: url("https://www.xmple.com/wallpaper/linear-highlight-brown-gradient-black-3840x2160-c2-000000-8b4513-l-33-a-165-f-21.svg");
+    }
+    
+    .exhibit3{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmU1pogrAv_8QZRzuVJBbpI1015MADvteeKlY6NsKTnEnx7C0:findnerd.s3.amazonaws.com/imagedata/5066/5066.png");
+    
+    }
+
+    .exhibit4{
+      background-image: url("https://www.solidbackgrounds.com/images/2880x1800/2880x1800-light-sky-blue-solid-color-background.jpg");
+    }
+
+    .exhibit6{
+      background-image: url("https://www.freevector.com/uploads/vector/preview/18427/DD-Grunge-Background-55400-Preview.jpg");
+    }
+
+ .materials{
+      background-image: url("https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/images/si-citations.jpg?itok=UXvQv0qC");
+    }
+
+  h1.mattitle{
+    color:black;
+  }
+
+
+  map.firstfloor{
+    outline-color: "black";
   }
